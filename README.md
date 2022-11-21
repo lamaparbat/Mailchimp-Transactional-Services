@@ -42,6 +42,7 @@
   2. Utilize @mailchimp package
   
      a). Check if api connection is done successfully or not
+     
        ![Screen Shot 2022-11-21 at 11 02 23](https://user-images.githubusercontent.com/64581460/202971141-8c2935b1-0c03-4beb-97fb-6786e6324540.png)
      
      b). Successfull Response be like:
