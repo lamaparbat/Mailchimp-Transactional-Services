@@ -12,18 +12,18 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
-// make .env file accessible 
 dotenv_1.default.config();
-// server config
-const app = (0, express_1.default)();
-const port = process.env.PORT || 8000;
-// on default route call
-app.get('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.send('Server has been started..');
-}));
-// on given port envoke
-app.listen(port, () => {
-    console.log(`Listening on PORT: ${port}`);
+const mailchimpTx = require('@mailchimp/mailchimp_transactional')(process.env.MAILCHIMP_API_KEY);
+const initMailchimp = () => __awaiter(void 0, void 0, void 0, function* () {
+    const response = yield mailchimpTx.users.ping();
+    return response;
 });
+const sendMail = (payload) => __awaiter(void 0, void 0, void 0, function* () {
+    const response = yield mailchimpTx.messages.send({ payload });
+    return response;
+});
+module.exports = {
+    initMailchimp,
+    sendMail
+};
