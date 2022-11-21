@@ -37,7 +37,7 @@
 ### work on root `index.tsx` file
   1. Setup basic express api structure 
   
-    ![basic](https://user-images.githubusercontent.com/64581460/202970700-aad2a1c6-da38-4693-87e7-1d8adc1be5d1.png)
+    ![basic](https://user-images.githubusercontent.com/64581460/202972269-6522eb6d-1f1f-4e11-9c24-aab74c94da0b.png)
     
   2. Utilize @mailchimp package
   
