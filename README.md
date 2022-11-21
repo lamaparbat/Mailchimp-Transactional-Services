@@ -35,9 +35,8 @@
        ![Screen Shot 2022-11-21 at 11 02 23](https://user-images.githubusercontent.com/64581460/202971141-8c2935b1-0c03-4beb-97fb-6786e6324540.png)
        
     b). Successfull Response be like:
-    <img width="296" alt="Screen Shot 2022-11-21 at 11 04 37" src="https://user-images.githubusercontent.com/64581460/202971397-de4bf2cb-0566-44c7-894c-df3a579b5cf8.png">
+    <img width="438" alt="Screen Shot 2022-11-21 at 11 07 14" src="https://user-images.githubusercontent.com/64581460/202971726-028893b9-f91e-4705-aded-8e87bd8dec79.png">
 
-    
 
   
 
