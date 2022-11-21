@@ -28,6 +28,7 @@
   3. Copy the api key & paste it into .env file 
 ### work on root `index.tsx` file
   1. Setup basic express api structure 
-  2. 
+  2. ![basic](https://user-images.githubusercontent.com/64581460/202970700-aad2a1c6-da38-4693-87e7-1d8adc1be5d1.png)
+
   
 
