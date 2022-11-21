@@ -35,7 +35,9 @@
   3. Copy the api key & paste it into .env file 
   
 ### work on root `index.tsx` file
+
   1. Setup basic express api structure 
+
     ![basic](https://user-images.githubusercontent.com/64581460/202972330-d4b5a808-6e44-457f-a35e-2dab9e110572.png)
     
   2. Utilize @mailchimp package
