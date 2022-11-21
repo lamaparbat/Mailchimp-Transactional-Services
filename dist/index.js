@@ -21,7 +21,7 @@ const app = (0, express_1.default)();
 const port = process.env.PORT || 8000;
 // on default route call
 app.get('/', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    res.send('Server has started....');
+    res.send('Server has been started..');
 }));
 // on given port envoke
 app.listen(port, () => {

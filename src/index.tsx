@@ -10,10 +10,8 @@ const port = process.env.PORT || 8000;
 
 // on default route call
 app.get('/', async (req: Request, res: Response) => {
- res.send('Server has started....');
+ res.send('Server has been started..');
 });
-
-
 
 // on given port envoke
 app.listen(port, (): void => {
