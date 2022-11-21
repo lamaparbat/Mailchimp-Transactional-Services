@@ -34,11 +34,12 @@
   2. Generate a new api key [domain: https://us21.admin.mailchimp.com/account/api/]
   3. Copy the api key & paste it into .env file 
   
-### work on root `index.tsx` file
+### Work on root `index.tsx` file
 
   1. Setup basic express api structure 
 
-    ![basic](https://user-images.githubusercontent.com/64581460/202972330-d4b5a808-6e44-457f-a35e-2dab9e110572.png)
+    ![basic](https://user-images.githubusercontent.com/64581460/202972519-10e091e0-5a19-431f-96b2-731c5a1def66.png)
+
     
   2. Utilize @mailchimp package
   
