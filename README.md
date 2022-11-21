@@ -1,4 +1,4 @@
-# mailchimp_transactional_services documentation
+# Mailchimp Transactional Services Documentation
 
 ## Docs Guide
 ### 1. Init node project with typescript environment
@@ -29,10 +29,13 @@
 ### work on root `index.tsx` file
   1. Setup basic express api structure 
     ![basic](https://user-images.githubusercontent.com/64581460/202970700-aad2a1c6-da38-4693-87e7-1d8adc1be5d1.png)
+    
   2. Utilize @mailchimp package
     a). Check if api connection is done successfully or not
        ![Screen Shot 2022-11-21 at 11 02 23](https://user-images.githubusercontent.com/64581460/202971141-8c2935b1-0c03-4beb-97fb-6786e6324540.png)
+       
     b). Successfull Response be like:
+ 
        <img width="296" alt="Screen Shot 2022-11-21 at 11 04 37" src="https://user-images.githubusercontent.com/64581460/202971397-de4bf2cb-0566-44c7-894c-df3a579b5cf8.png">
 
     
