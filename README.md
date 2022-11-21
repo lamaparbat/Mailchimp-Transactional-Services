@@ -1,14 +1,21 @@
-# mailchimp_transactional_services documentation
+# Mailchimp Transactional Services Documentation
 
 ## Docs Guide
 ### 1. Init node project with typescript environment
    `npm init --yes`      [--yes flag lets npm fills the package. json file with the sensible default obtained from the current project folder.]
+   
    `npm i express dotenv nodemon @mailchimp/mailchimp_transactional`
+   
    `npm i -D typescript @types/node @types/express`
+
    `npx tsc --init`
+   
    `mkdir src`           [contains .tsx extension file]
+   
    `mkdir dist`          [contains .js compiled file]
+   
    `touch index.tsx`     [inside /src directory]
+   
    `touch .env`          [on root dir]
 
 ### update the tsconfig.json file
@@ -26,8 +33,25 @@
   1. Register account in Mailchimp domain
   2. Generate a new api key [domain: https://us21.admin.mailchimp.com/account/api/]
   3. Copy the api key & paste it into .env file 
-### work on root `index.tsx` file
+  
+### Work on root `index.tsx` file
+
   1. Setup basic express api structure 
-  2. 
+     
+     ![basic](https://user-images.githubusercontent.com/64581460/202972519-10e091e0-5a19-431f-96b2-731c5a1def66.png)
+
+    
+  2. Utilize @mailchimp package
+  
+     a). Check if api connection is done successfully or not
+     
+       ![Screen Shot 2022-11-21 at 11 02 23](https://user-images.githubusercontent.com/64581460/202971141-8c2935b1-0c03-4beb-97fb-6786e6324540.png)
+     
+     b). Successfull Response be like:
+     
+       <img width="471" alt="Screen Shot 2022-11-21 at 11 09 34" src="https://user-images.githubusercontent.com/64581460/202972021-7490a79b-f8a5-44eb-9671-939cf88b69c2.png">
+
+
+
   
 
