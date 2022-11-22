@@ -1,5 +1,11 @@
 # Mailchimp Transactional Services Documentation
 
+# Nodmailer vs Mandril
+
+<img width="854" alt="Screen Shot 2022-11-22 at 16 57 48" src="https://user-images.githubusercontent.com/64581460/203300284-329b0e4d-971e-40e2-b702-50e6353b789b.png">
+
+
+
 ## Docs Guide
 ### 1. Init node project with typescript environment
    `npm init --yes`      [--yes flag lets npm fills the package. json file with the sensible default obtained from the current project folder.]
