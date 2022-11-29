@@ -10,7 +10,7 @@
 ### 1. Init node project with typescript environment
    `npm init --yes`      [--yes flag lets npm fills the package. json file with the sensible default obtained from the current project folder.]
    
-   `npm i express dotenv nodemon @mailchimp/mailchimp_transactional`
+   `npm i express dotenv nodemon @mailchimp/mailchimp_transactional sequelize sequelize-cli pg pg-hstore`
    
    `npm i -D typescript @types/node @types/express`
 
@@ -56,7 +56,16 @@
      b). Successfull Response be like:
      
        <img width="471" alt="Screen Shot 2022-11-21 at 11 09 34" src="https://user-images.githubusercontent.com/64581460/202972021-7490a79b-f8a5-44eb-9671-939cf88b69c2.png">
-
+       
+  3. Setup timescale db
+  
+     a). <img width="652" alt="Screen Shot 2022-11-24 at 19 46 28" src="https://user-images.githubusercontent.com/64581460/203802659-08ba4c31-3855-46fb-96f7-7a76a00c32e4.png">
+   
+     b). <img width="809" alt="Screen Shot 2022-11-24 at 19 47 06" src="https://user-images.githubusercontent.com/64581460/203802827-a7f05465-d9e7-4821-a128-6f597a4a15cc.png">
+     
+     c). Setup timescale db connection
+     
+        <img width="579" alt="Screen Shot 2022-11-24 at 20 04 30" src="https://user-images.githubusercontent.com/64581460/203806444-eb25d415-7604-4a3f-a392-f5079eb956e1.png">
 
 
   
