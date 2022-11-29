@@ -3,7 +3,7 @@ const {models} = require('../utils/timescaledbConnection');
 
 const getReport = async (req: Request, res: Response) => {
   try {
-    const result = await models.findAll();
+    const result = await models.findAll({raw: true});
     res.status(200).send(result)
   } catch (error) {
     res.status(404).send(error.message)
