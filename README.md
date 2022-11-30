@@ -73,6 +73,5 @@
 
 
 ## Convert reportData JSON to CSV downloadable format
-
-![Screen Shot 2022-11-29 at 16 12 54](https://user-images.githubusercontent.com/64581460/204505079-38cc617d-b694-4bd7-91d3-f20f767de7fb.png)
+![Screen Shot 2022-11-30 at 09 18 59](https://user-images.githubusercontent.com/64581460/204701440-6bf4d00f-4715-4e3c-8573-3aa1dbc2cb3c.png)
 
