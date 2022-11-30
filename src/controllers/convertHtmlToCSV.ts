@@ -9,17 +9,14 @@ const convertHtmlToCSV = (req: Request, res: Response) => {
    throw err;
   }
 
-  // print CSV string
+  // generate encoded URI string with UTF-8 encoded data
   const encodedHref = "data:text/csv;charset=utf-8," + encodeURIComponent(csvData);
   res.send(encodedHref);
-
  });
 
 }
 
 module.exports = convertHtmlToCSV;
-
-
 
 
 // paste the href text to link on 'href' attribute
