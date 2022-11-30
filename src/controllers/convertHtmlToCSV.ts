@@ -10,7 +10,7 @@ const convertHtmlToCSV = (req: Request, res: Response) => {
   }
 
   // print CSV string
-  const encodedHref = "data:text/csv;charset=utf-8," + encodeURI(csvData);
+  const encodedHref = "data:text/csv;charset=utf-8," + encodeURIComponent(csvData);
   res.send(encodedHref);
 
  });
@@ -23,3 +23,9 @@ module.exports = convertHtmlToCSV;
 
 
 // paste the href text to link on 'href' attribute
+
+
+// URI(Universal Resource Identifier) : allows access of objects available using existing protocols, and may be extended with technology.
+
+// encodeURI(rawData:string) => string             NOTE: it ignores a URL's domain related roots.
+// encodeURIComponent(rawData:string) => string    NOTE: it is designed to encode everything incl. queryString parameters
